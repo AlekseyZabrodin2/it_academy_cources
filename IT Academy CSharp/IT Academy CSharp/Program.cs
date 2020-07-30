@@ -25,10 +25,13 @@ namespace IT_Academy_CSharp
       var input = Console.ReadLine();
 
       if (string.IsNullOrEmpty(input))
-
+      {
         Console.WriteLine($"Кофе выдается студенту - {stack.Pop()}");
+      }
       else
+      {
         stack.Push(input);
+      }       
 
       Console.WriteLine("\nПервый в очереди за кофе студент: {0}", stack.Pop());
       Console.WriteLine("Следующий в очереди студент: {0}", stack.Peek());
@@ -77,10 +80,14 @@ namespace IT_Academy_CSharp
       var input1 = Console.ReadLine();
 
       if (string.IsNullOrEmpty(input1))
-
+      {
         Console.WriteLine($"Кофе выдается студенту - {queue.Dequeue()}");
+      }
       else
+      {
         queue.Enqueue(input1);
+      }
+        
 
       Console.WriteLine("\nПервый в очереди за кофе студент: {0}", queue.Dequeue());
       Console.WriteLine("Следующий в очереди студент: {0}", queue.Peek());
