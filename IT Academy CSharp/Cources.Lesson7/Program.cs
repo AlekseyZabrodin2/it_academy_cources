@@ -16,7 +16,7 @@ namespace Cources.Lesson7
       student3.PrintStudentName();
       student4.PrintStudentName();
 
-
+      Console.WriteLine(student1.FirstName);
 
 
 
