@@ -45,9 +45,5 @@ namespace IT_Academy_CSharp
     {
       return $"студент {this.LastName}, {this.FirstName[0]}. Из группы {Group.Number}.";
     }
-
-
-
-
   }
 }

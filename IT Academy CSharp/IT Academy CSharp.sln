@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.HomeTask6", "IT Aca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.HomeTask7", "Cources.Lesson7\Cources.HomeTask7.csproj", "{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cources.Lessons8", "Cources.Lessons8\Cources.Lessons8.csproj", "{662A397A-6E32-4748-805D-A843E961078D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cources.Lesson8", "Cources.Lessons8\Cources.Lesson8.csproj", "{662A397A-6E32-4748-805D-A843E961078D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

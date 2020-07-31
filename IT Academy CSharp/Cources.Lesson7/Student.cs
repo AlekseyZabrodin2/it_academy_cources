@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace Cources.Lesson7
@@ -7,29 +8,48 @@ namespace Cources.Lesson7
   class Student
   {
     public string FirstName { get; set; }
-    public double AverageMarc { get; set; }
-    public string SecendName { get; set; }
+    public string SecondName { get; set; }
+    public int[] Mark { get; set; }
+    public double SumMark { get; set; }
+    public double MiddleMark { get; set; }
 
-    int[] mark = new int[4];
     Random random = new Random();
-
-    public Student(string fName, string sName)
+    public Student(string firstName, string secondName)
     {
-      FirstName = fName;
-      SecendName = sName;
-      
-      for (int i = 0; i < mark.Length; i++)
+      MiddleMark = 0f;
+      FirstName = firstName;
+      SecondName = secondName;
+      Mark = new int[5];
+      SumMark = 0;
+
+      for (int mk = 0; mk < Mark.Length; mk++)
       {
-        mark[i] = random.Next(0, 11);
-        AverageMarc += mark[i];
+        Mark[mk] = random.Next(1, 10);
+        SumMark = SumMark + Mark[mk];
       }
-      AverageMarc = AverageMarc / mark.Length;
+
+      MiddleMark = SumMark / Mark.Length;
+      //Console.WriteLine($"{SumMark}");
+      //Console.WriteLine($"{MiddleMark}");
+    }
+    public override string ToString()
+    {
+      return $"Студент {FirstName} {SecondName} получает {MiddleMark}.";
+    }    
+    public void PrintAllMark()
+    {
+      Console.WriteLine($"Студент {FirstName} {SecondName} получил следующие оценки: ");
+
+      foreach (var item in Mark)
+      {
+        Console.Write(item );        
+      }
+      Console.WriteLine();
     }
 
-    public void PrintStudentName()
-    {
-      Console.WriteLine($"student {FirstName} {SecendName}");
-    }
+
+
+
 
 
   }
