@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.Lesson6", "IT Academy CSharp\Cources.Lesson6.csproj", "{DC9F7CBE-A620-442C-AF59-695486054E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.HomeTask6", "IT Academy CSharp\Cources.HomeTask6.csproj", "{DC9F7CBE-A620-442C-AF59-695486054E41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.Lesson7", "Cources.Lesson7\Cources.Lesson7.csproj", "{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.HomeTask7", "Cources.Lesson7\Cources.HomeTask7.csproj", "{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cources.Lessons8", "Cources.Lessons8\Cources.Lessons8.csproj", "{662A397A-6E32-4748-805D-A843E961078D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{244501F7-BA9D-4FE1-9397-352DC3A8CB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662A397A-6E32-4748-805D-A843E961078D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662A397A-6E32-4748-805D-A843E961078D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662A397A-6E32-4748-805D-A843E961078D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662A397A-6E32-4748-805D-A843E961078D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
