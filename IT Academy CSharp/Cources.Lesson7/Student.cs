@@ -42,7 +42,7 @@ namespace Cources.Lesson7
 
       foreach (var item in Mark)
       {
-        Console.Write(item );        
+        Console.Write(item );       
       }
       Console.WriteLine();
     }
