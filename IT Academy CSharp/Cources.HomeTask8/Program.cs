@@ -12,17 +12,12 @@ namespace Cources.HomeTask8
         {
             var charConteyner = new char[16] {'Y', 'c', 'h', 'e', 'b', 'n', 'o', 'e', '_', 'z', 'a', 'd', 'a', 'n', 'i', 'e'};
 
-
             var ind = charConteyner.CharIndexOf('z') ;
             var result = charConteyner.CharContains('c');
-
 
             Console.WriteLine(ind);
             Console.WriteLine(result);
             Console.ReadLine();
-
-
-
         }
     }
 }

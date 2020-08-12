@@ -18,7 +18,7 @@ namespace Cources.HomeTask8
                     result = true;
                 }
             }
-            //Console.WriteLine("Все норм");
+            Console.WriteLine("Все норм");
             return result;
         }
 
