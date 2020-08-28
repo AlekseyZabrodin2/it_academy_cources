@@ -8,7 +8,7 @@ namespace Cources.HomeTask12
     {
         public void Message()
         {
-            Console.WriteLine("Пора действовать, ведь уже 71 !!!");
+            Console.WriteLine("Пора действовать, ведь уже 250 !!!");
         }
     }
 }

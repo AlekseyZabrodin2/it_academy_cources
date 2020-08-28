@@ -12,8 +12,8 @@ namespace Cources.HomeTask12
             Handler_I Handler1 = new Handler_I();
             Handler_II Handler2 = new Handler_II();
 
-            Counter.onCount += Handler1.Message;
-            Counter.onCount += Handler2.Message;
+            Counter.onEnumeration += Handler1.Message;
+            Counter.onEnumeration += Handler2.Message;
 
             Counter.Count();
 

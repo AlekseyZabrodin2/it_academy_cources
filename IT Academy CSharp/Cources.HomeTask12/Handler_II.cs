@@ -8,7 +8,7 @@ namespace Cources.HomeTask12
     {
         public void Message()
         {
-            Console.WriteLine("Точно, уже 71!!!");
+            Console.WriteLine("Точно, уже 250!!!");
         }
 
     }
