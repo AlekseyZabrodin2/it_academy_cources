@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labirint", "Labirint\Labiri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cources.Lesson13", "Cources.Lesson13\Cources.Lesson13.csproj", "{0261CE90-5449-40B7-B9FA-3A590016E95D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson11", "Cources.HomeTask11\Lesson11.csproj", "{8EFB94FF-79E0-4C16-999E-427961DFD5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home Task 11", "Cources.HomeTask11\Home Task 11.csproj", "{8EFB94FF-79E0-4C16-999E-427961DFD5CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
