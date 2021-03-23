@@ -10,7 +10,7 @@ namespace ConsoleApplication3
     {
         private const string N = "N";
         private const string Y = "Y";
-        static void Main(string[] args)
+        static void Main(string[]  args)
         {
             Console.CursorVisible = false;
             //ввод 
